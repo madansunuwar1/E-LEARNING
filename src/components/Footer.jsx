@@ -4,7 +4,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-    <div className='flex justify-evenly px-12 py-14'>
+    <div className='flex justify-evenly px-4 py-10'>
         <div className='flex items-center font-Oswald font-bold text-6xl text-green-200'>
             LOGO
         </div>
@@ -25,7 +25,7 @@ const Footer = () => {
            </div>
         </div>
     </div>
-    <div className='text-center py-4'>
+    <div className='text-center text-green-600 pb-4'>
         copyright &copy; Nikesh
     </div>
     </>
