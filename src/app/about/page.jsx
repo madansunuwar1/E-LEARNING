@@ -25,7 +25,7 @@ const page = () => {
   return (
     <>
     <div className='border-b-2 sm:px-8 md:px-12 lg:px-20 xl:px-48 py-0 md:py-12'>
-      <h1 className='text-6xl md:text-7xl text-white font-bold py-12 font-Oswald'>We are E-learning platform.<span className='text-green-400'>Straightforward</span> , honest, providing <span className='text-green-400'>best classes</span> for you</h1>
+      <h1 className='text-4xl md:text-7xl text-white font-bold py-12 font-Oswald px-4'>We are E-learning <span className='text-green-400'>platform</span>. Straight forward , honest, providing <span className='text-green-400'>best classes</span> for you</h1>
       <div className='flex lg:flex-row-reverse flex-col py-8'>
         <img src='./ok1.jpg' className='w-full lg:h-[400px] rounded-3xl flex-1' />
         <div className='px-12'>
@@ -36,7 +36,7 @@ const page = () => {
       </div>
     </div>
     <div className='border-b-2 sm:px-8 md:px-12 lg:px-20 xl:px-48 py-4 md:py-24 flex lg:justify-between flex-col  lg:flex-row justify-center items-center'>
-      <h1 className='text-6xl md:text-7xl text-white font-bold font-Oswald w-[200px] py-8'>Our <span className='text-green-400'>Values</span></h1>
+      <h1 className='text-5xl md:text-7xl text-white font-bold font-Oswald w-[200px] py-8'>Our <span className='text-green-400'>Values</span></h1>
       <div className='grid lg:grid-cols-2 gap-12'>
         {
           values.map((value) => (<Valuecard value={value}/>))
