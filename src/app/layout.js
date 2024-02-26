@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.variable} ${os.variable} font-sans`}>
-        <div className="w-screen h-[74vh] lg:h-[90vh] bg-[url('/black.jpg')]">
+        <div className="w-screen h-[74vh] lg:h-[90vh]">
           <div className="h-24 text-white">
           <Navbar />
           </div>
