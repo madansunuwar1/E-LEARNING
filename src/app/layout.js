@@ -19,12 +19,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.variable} ${os.variable} font-sans`}>
-        <div className="w-screen h-[74vh] lg:h-[90vh]">
+        <div className="w-screen h-[100%] lg:h-[100%] bg-[url('/High.webp')] bg-cover bg-fixed">
+
           <div className="h-24 text-white">
           <Navbar />
           </div>
           {children}
           <Footer />
+          
         </div>
       </body>
     </html>
